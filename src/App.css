@@ -1,0 +1,42 @@
+.addtask{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(149, 149, 240);
+    height: 10rem;
+}
+.addtask input{
+    padding: 15px 15px;
+    border-radius: 5%;
+    border: 2px solid black;
+    margin: 20px;
+    width: 50%;
+}
+.addtask button{
+    padding: 10px 15px;
+    font-size: 1.2rem;
+}
+.list{
+    display: inline-block;
+    width: 100%;
+}
+.list h1{
+    padding: 10px 15px;
+    border: 2px solid rgb(165, 8, 8);
+    font-size: 1rem;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+}
+@media (max-width: 600px) {
+    #icon{
+        font-size: 1.5rem;
+    }
+    .addtask input{
+        width: 80%;
+    }
+    .addtask button{
+        font-size: 0.9rem;
+    }
+}
